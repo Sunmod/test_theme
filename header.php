@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="http://localhost:8888">
+        <?php the_custom_logo();?>
             <img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="">
         </a>
         <nav>
