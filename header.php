@@ -8,6 +8,9 @@
 </head>
 <body>
     <header>
+        <a class="logo" href="http://localhost:8888">
+            <img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="">
+        </a>
         <nav>
             <a href="#1">Link 1</a>
             <a href="#2">Link 2</a>
