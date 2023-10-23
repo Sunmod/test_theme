@@ -62,6 +62,14 @@ TempLate Name: home
    <section>
       <form>
          <h2>Контакты</h2>
+
+         <div>
+            <p>Адрес</p>
+            <p><?php the_field('address');?></p>
+            <p>Время работы</p>
+            <p><?php the_field('worktime');?></p>
+         </div>
+
          <?php echo do_shortcode('[contact-form-7 id="7565b07" title="Контактная форма 1"]') ?>
       </form>
    </section>
