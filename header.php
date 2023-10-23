@@ -8,12 +8,13 @@
 </head>
 <body>
     <header>
-        <?php the_custom_logo();?>
-            <img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="">
-        </a>
-        <nav>
-            <a href="#1">Link 1</a>
-            <a href="#2">Link 2</a>
-            <a href="#3">Link 3</a>
-        </nav>
+        <div class="header__container">
+            <?php the_custom_logo();?>
+            <nav>
+                <a href="#1">Link 1</a>
+                <a href="#2">Link 2</a>
+                <a href="#3">Link 3</a>
+            </nav>
+            <a class="logo_tel" href="tel:79882420596">8 (988) 242 05-96</a>
+        </div>
     </header>

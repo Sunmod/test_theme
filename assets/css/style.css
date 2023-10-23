@@ -21,12 +21,19 @@
     width: 550px;
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo {
     display: block;
 }
 
 .logo__img {
     display: block;
-    max-width: 100px;
+    max-width: 10px;
     width: 100%;
 }
