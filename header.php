@@ -15,6 +15,6 @@
                 <a href="#2">Link 2</a>
                 <a href="#3">Link 3</a>
             </nav>
-            <a class="logo_tel" href="tel:<?php the_field('phone_work');?>"><?php the_field('phone');?></a>
+            <a class="logo_tel" href="tel:<?php the_field('phone_work ');?>"><?php the_field('phone');?></a>
         </div>
     </header>
