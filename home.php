@@ -38,12 +38,19 @@ TempLate Name: home
                         ?>
       <!-- запускается сам цикл по шаблону ниже -->
                         <div class="block">
+<<<<<<< HEAD
                            <!-- изображения, где array - атрибуты и свойства изображения -->
+=======
+>>>>>>> fbf83bff32ad41bd911ba13794b55ff68934630c
                            <?php the_post_thumbnail(
                               array(550, 300),
                               array('class' => 'block__img')
                            ); ?>
+<<<<<<< HEAD
                           <!-- сам контент (заголовок и текст основной) -->
+=======
+                          
+>>>>>>> fbf83bff32ad41bd911ba13794b55ff68934630c
                            <div>
                               <h3><?php the_title(); ?></h3>
                               <p><?php the_content(); ?></p>
