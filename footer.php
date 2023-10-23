@@ -1,8 +1,8 @@
     <section>
         <div class="links__block">
-                <a class="instagram" href="#"></a>
-                <a class="telegram" href="#"></a>
-                <a class="google" href="#"></a>
+                <a class="instagram" href="<?php the_field('instagram_link'); ?>"></a>
+                <a class="telegram" href="<?php the_field('telegram_link'); ?>"></a>
+                <a class="google" href="<?php the_field('google_link'); ?>"></a>
         </div>
         <footer class="footer__container">
             <?php the_custom_logo();?>
