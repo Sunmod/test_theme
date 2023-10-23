@@ -36,8 +36,11 @@ TempLate Name: home
                         ?>
 
                         <div class="block">
-                           <?php the_post_thumbnail(); ?>
-                           <!-- <img class="block__img" src="<?php bloginfo('template_url');?>/assets/images/kit1.jpg" alt=""> -->
+                           <?php the_post_thumbnail(
+                              array(550, 300),
+                              array('class' => 'block__img')
+                           ); ?>
+                          
                            <div>
                               <h3><?php the_title(); ?></h3>
                               <p><?php the_content(); ?></p>
