@@ -61,9 +61,7 @@ TempLate Name: home
    <section>
       <form>
          <h2>Контакты</h2>
-         <input class="contact__input" type="text" placeholder="Имя">
-         <input class="contact__input" type="tel" placeholder="Телефон">
-         <button class="contact__btn" type="submit">Отправить</button>
+         <?php echo do_shortcode('[contact-form-7 id="7565b07" title="Контактная форма 1"]') ?>
       </form>
    </section>
    </div>
