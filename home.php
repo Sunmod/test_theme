@@ -29,7 +29,8 @@ TempLate Name: home
                global $post;
 
                $myposts = get_posts([
-                  'numberposts' => -1
+                  'numberposts' => -1,
+                  'category' => 2
                ]);
       // проверяется, есть ли посты в вордпрессе
                if ($myposts) {
